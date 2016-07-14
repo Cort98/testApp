@@ -1,0 +1,7 @@
+<% @cars.each do |car| %>
+<div class="container col-xs-10 col-xs-offset-1">
+  <h2><%= car.make %> <%= car.model %></h2>
+  <i><%= car.year %></i>
+  <p><%= car.color %></p>
+</div>
+  <% end %>
